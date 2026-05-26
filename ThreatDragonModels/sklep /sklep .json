@@ -1399,6 +1399,116 @@
             },
             "width": 200,
             "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "f8cea790-6bd4-4f1e-904e-1b135d8b3643",
+            "source": {
+              "x": 133,
+              "y": 800
+            },
+            "target": {
+              "x": 210,
+              "y": 950
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "7744747c-b55c-4aca-a0cb-4e78ab5c22ff",
+            "source": {
+              "x": 360,
+              "y": 950
+            },
+            "target": {
+              "cell": "535023cd-e84e-494a-abc7-8c7b1bbf2aa8",
+              "port": "ba60101e-131d-49eb-908a-844c416cef45"
+            },
+            "vertices": [
+              {
+                "x": 410,
+                "y": 770
+              },
+              {
+                "x": 350,
+                "y": 730
+              },
+              {
+                "x": 310,
+                "y": 790
+              },
+              {
+                "x": 330,
+                "y": 860
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
             "zIndex": 11,
             "connector": "smooth",
             "data": {
@@ -1609,8 +1719,8 @@
           },
           {
             "position": {
-              "x": 530,
-              "y": 1240
+              "x": 560,
+              "y": 1220
             },
             "size": {
               "width": 230,
@@ -1907,6 +2017,123 @@
             ]
           },
           {
+            "position": {
+              "x": 80,
+              "y": 740
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "uzytkowanik "
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1f729771-6544-4523-b590-aaf491315ee8"
+                },
+                {
+                  "group": "right",
+                  "id": "ba60101e-131d-49eb-908a-844c416cef45"
+                },
+                {
+                  "group": "bottom",
+                  "id": "8e32b311-3a17-43e3-b114-a49e76059f99"
+                },
+                {
+                  "group": "left",
+                  "id": "4e620d2b-94f6-4313-b266-3d5a160eff21"
+                }
+              ]
+            },
+            "id": "535023cd-e84e-494a-abc7-8c7b1bbf2aa8",
+            "zIndex": 18,
+            "data": {
+              "type": "tm.Actor",
+              "name": "uzytkowanik ",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
             "shape": "flow",
             "attrs": {
               "line": {
@@ -1922,7 +2149,7 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 18,
+            "zIndex": 19,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -1942,15 +2169,25 @@
             "labels": [
               "Data Flow"
             ],
-            "id": "3ff63e55-1d8c-4ae5-835b-6b944cc21016",
+            "id": "38405fa9-ced8-4c54-b5b2-73ea78b788d3",
             "source": {
-              "x": 410,
-              "y": 1040
+              "x": 430,
+              "y": 1080
             },
             "target": {
-              "x": 570,
-              "y": 1180
-            }
+              "x": 370,
+              "y": 1150
+            },
+            "vertices": [
+              {
+                "x": 500,
+                "y": 1110
+              },
+              {
+                "x": 550,
+                "y": 1200
+              }
+            ]
           }
         ]
       }
